@@ -1,0 +1,27 @@
+1. chmod +x extrachgst.sh
+2. ./extrach.sh
+
+-> a directory of shell-theme will be generate in working directory
+
+3. copy your backgroung picture into
+	~/shell-theme/theme
+4. open the gnome-shell.css file and change #lockDialogGroup as follow:
+
+#lockDialogGroup {
+  background: #2e3436 url(filename);
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+5. create a gnome-shell-theme.xml file
+
+6. compile them
+	 $ glib-compile-resources gnome-shell-theme.gresource.xml
+
+7. Then copy the resulting gnome-shell-theme.gresource file to the /usr/share/gnome-shell directory.
+
+
