@@ -17,10 +17,10 @@ def LoginBackground():
 
 	with open("/etc/alternatives/gdm3.css","r") as f:
 		newline=[]
-    for word in f.readlines():        
-    	    newline.append(word.replace(default,updated))  ## Replace the keyword while you copy.
-
-    os.system(reboot)
+		for word in f.readlines():
+			newline.append(word.replace(default,updated))  ## Replace the keyword while you copy.
+	
+	os.system(reboot)
 
 
 def main():
