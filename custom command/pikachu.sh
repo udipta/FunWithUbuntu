@@ -3,13 +3,13 @@
 #pypad - simple python ide
 function pypad() {
 
-	python3 /home/udipta/H\&T/PyPad/src/main.py
+	python3 /home/udipta/PyPad/src/main.py
 }
 
 
 # labelImg - labeling the image
 function labelImg() {
-  	python3 /home/udipta/udipta/college/OpenCV_lab/labelImg/labelImg.py
+  	python3 /home/udipta/OpenCV_lab/labelImg/labelImg.py
 }
 
 #youtube-dl
